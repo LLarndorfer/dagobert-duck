@@ -1,10 +1,20 @@
-.StartingPic > img{
+.StartingPic {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.StartingPic > img {
     width: 200px;
 }
 
-button {
+.ButtonContainer {
     display: inline-block;
-    float: right;
+    vertical-align: top;
+    margin-left: 1rem;
+}
+
+button {
+    display: block;
     padding: 10px 20px;
     font-size: 16px;
     text-align: center;
@@ -21,8 +31,7 @@ button:hover {
     color: #fff;
 }
 
-.moreInfos{
+.moreInfos {
     border-top: 40px;
     float: left;
 }
-
