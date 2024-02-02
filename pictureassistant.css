@@ -1,21 +1,84 @@
-.picturesofhim {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
-.picturesofhim img {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
 
-}
 
-.onepic{
+/*
+.myCards div div div.card img{
     transition: box-shadow 1s ease;
 
 }
 
-.onepic:hover  {
+.myCards div div div.card img:hover{
     box-shadow: 0 0 50px rgba(0, 81, 131, 0.88);
 }
+*/
+
+
+.myCards div div div.card img:hover{
+    /* animation: rainbowShadow 5s; */
+    animation-name: rainbowShadow;
+    animation-duration: 5s;
+
+}
+
+@keyframes rainbowShadow {
+    0% {
+        box-shadow: 0 0 50px rgba(148, 0, 211, 0.88); /* Violet */
+    }
+    20% {
+        box-shadow: 0 0 50px rgba(75, 0, 130, 0.88);
+    }
+    40% {
+        box-shadow: 0 0 50px rgba(0, 0, 255, 0.88);
+    }
+    60% {
+        box-shadow: 0 0 50px rgba(0, 255, 0, 0.88);
+    }
+    80% {
+        box-shadow: 0 0 50px rgba(255, 255, 0, 0.88);
+    }
+    90% {
+        box-shadow: 0 0 50px rgba(255, 69, 0, 0.88);
+    }
+
+    100%{
+        box-shadow: 0 0 50px rgba(148, 0, 211, 0.88);
+    }
+}
+
+
+
+
+@keyframes AppearFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes AppearFromRight{
+    from{
+        transform: translateX(+100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+div.col-md-6:first-child
+{
+    animation-name: AppearFromLeft;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+div.col-md-6:nth-child(2)
+{
+    animation-name: AppearFromRight;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+
+

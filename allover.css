@@ -36,3 +36,73 @@ button:hover {
     border-top: 40px;
     float: left;
 }
+
+a{
+    text-decoration: none;
+}
+
+.movieOutcut img{
+width: 20%;
+}
+
+.LTB img{
+    width: 50%;
+}
+
+
+
+.Schiff{
+    width: 50%;
+}
+
+div.carousel-item img{
+    height: 20rem;
+}
+
+.carousel{
+    margin-top: 3rem;
+    width: 50rem;
+
+}
+
+
+.carousel-control-prev:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0.73rem;
+
+}
+
+.carousel-control-next:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    right: 0.73rem;
+}
+
+
+.thirdText{
+      color: black;
+
+  }
+
+.firstText{
+    color: white;
+}
+
+.firstpic{
+    filter: brightness(60%);
+}
+
+div.carousel-caption > h5{
+    font-weight: bold;
+}
+
+.secText{
+    color: black;
+}
+
+.thirdImg{
+    filter: brightness(80%);
+}
+
+.secPic{
+    filter: brightness(80%);
+}
