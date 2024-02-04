@@ -80,8 +80,7 @@ div.carousel-item img{
 
 .thirdText{
       color: black;
-
-  }
+}
 
 .firstText{
     color: white;
@@ -105,4 +104,28 @@ div.carousel-caption > h5{
 
 .secPic{
     filter: brightness(80%);
+}
+
+
+.priceEvolution{
+    width: 40rem;
+}
+
+.Edition581{
+    transition: transform 0.5s ease-in-out;
+}
+
+.Edition581:hover{
+    transform: scale(1.04);
+    border-top: 34rem;
+}
+.figureLTB{
+    padding-top: 1rem;
+}
+
+.dagoAlert {
+    bottom: 3rem;
+    position: fixed;
+    right: 0;
+
 }
