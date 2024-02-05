@@ -11,9 +11,29 @@ img{
 
 
 img:hover {
-    transform: scale(1.31);
+    transform: scale(1.10);
 }
 
 ul{
     list-style-type: "✘";
+}
+
+a.btn-outline-dark:hover,
+button.btn-outline-dark:hover
+{
+    background-color: blueviolet;
+}
+
+.dagoQuotes{
+    border-left: 0.3rem solid #a34e78;
+    transition: all 1s;
+}
+
+.dagoQuotes:Hover{
+    border-left: 0.3rem solid #72bf6a;
+
+}
+
+.btn-close:hover{
+    background-color: rgba(255, 132, 124, 0.8);
 }

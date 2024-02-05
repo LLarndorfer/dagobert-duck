@@ -17,6 +17,7 @@
 
 .myCards div div div.card img:hover{
     animation: rainbowShadow 5s infinite;
+    animation-timing-function: ease-in-out;
 
 
 }
