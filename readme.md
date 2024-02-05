@@ -13,17 +13,6 @@ Bootstrap Theme <b><a href="https://bootswatch.com/morph/">Morph</a></b>
 <a href ="https://www.bing.com/images/create">Bing</a> (Images)<br> 
 
 
-
-<style>
-  body {
-    font-size: 16px;
-  }
-  a{
-    font-weight: bold;
-  }
-
-</style>
-
 <h2>Disclaimer</h2>
 There is no partnership with any extern website. Any mentioned website just serves only as a placeholder. <br>
 
